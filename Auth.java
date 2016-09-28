@@ -38,9 +38,9 @@ public class Auth implements SocialMediaConstants {
      */
 
 
-    public static final String CLIENTID="146760935634-nif2ddpj70f2js1pt8ogpucho9npfguo.apps.googleusercontent.com";
+    public static final String CLIENTID="$YOUR_CLINT_ID";
 
-    public static final String CLIENT_SECRET="146760935634-nif2ddpj70f2js1pt8ogpucho9npfguo.apps.googleusercontent.com";
+    public static final String CLIENT_SECRET="$YOUR_CLIENT_SECRET";
 
 
     /**
@@ -53,7 +53,7 @@ public class Auth implements SocialMediaConstants {
      */
 
 
-    public static final String REFRESH_TOKEN="1/Jk_Zd_sOTF1LLy36TgATigUgQyBBnGWb_XHwEgWPN5k";
+    //public static final String REFRESH_TOKEN="REFRESH TOKEN";
 
     LocalServerReceiver localReceiver=null;
 
