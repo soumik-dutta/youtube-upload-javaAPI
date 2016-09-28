@@ -19,11 +19,11 @@ public interface SocialMediaConstants {
     public static String FACEBOOK ="facebook";
 
     //api-keys for social-media
-    public static final String GOOGLE_APIKEY = "/home/omoto/api_keys/google/client_secret.json";
+    public static final String GOOGLE_APIKEY = "$YOUR_PATH_TO/client_secret.json";
     public static final String SOCIALMEDIA = "socialmedia";
 
     //google redirection callback
-    public static  final String GOOGLE_CALLBACK="http://demo.omoto.io/omoto/googlecallback.htm";
+    public static  final String GOOGLE_CALLBACK="$YOUR_CALLBACK_URL/googlecallback.htm";
 
     public static final HttpTransport HTTP_TRANSPORT = new NetHttpTransport();
     public static final JsonFactory JSON_FACTORY = new JacksonFactory();
